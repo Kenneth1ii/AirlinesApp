@@ -7,6 +7,7 @@ class FlightAdmin(admin.ModelAdmin):
 class PassengerAdmin(admin.ModelAdmin):
     filter_horizontal = ("flights",)
 
+# Add Models to Site:8000/Admins To Use.
 admin.site.register(Airport)
 admin.site.register(Flight, FlightAdmin)
 admin.site.register(Passenger, PassengerAdmin)
