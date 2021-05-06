@@ -1,4 +1,4 @@
 # AirlinesApp
-Model of Airports/Passenger Web Application.
+Model of Airports/Passenger Web Application
 
 ![Airport]()
